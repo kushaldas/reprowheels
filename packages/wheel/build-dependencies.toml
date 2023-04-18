@@ -1,0 +1,11 @@
+[project]
+package="wheel"
+versions = ["0.37.2", "0.40.0"]
+
+[dependencies] 
+
+[debian11]
+
+[fedora38]
+
+# [debian11-arm64]
