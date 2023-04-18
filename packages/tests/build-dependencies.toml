@@ -1,0 +1,20 @@
+[project]
+package="test-package"
+versions = ["0.8.0", "0.78.2", "0.87.0"]
+
+[dependencies] 
+latest = [
+    "wheel==0.40.0",
+    "pip"]
+
+"0.78.0" = ["wheel==0.37.2", "pip"]
+
+[debian11]
+apt = ["libxyz-dev",
+"libpcsc-lite-dev"]
+
+[fedora38]
+dnf = ["libxyz-devel",
+"pcsc-devel"]
+
+# [debian11-arm64]
