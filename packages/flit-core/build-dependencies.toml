@@ -1,0 +1,11 @@
+[project]
+package="flit-core"
+versions = ["3.8.2"]
+
+[dependencies] 
+
+[debian11]
+
+[fedora38]
+
+# [debian11-arm64]
