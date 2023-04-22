@@ -1,0 +1,11 @@
+[project]
+package="docutils"
+versions = ["0.19"]
+
+[dependencies] 
+
+[debian11]
+
+[fedora38]
+
+# [debian11-arm64]
