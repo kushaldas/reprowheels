@@ -1,0 +1,11 @@
+[project]
+package="tomli-w"
+versions = ["1.0.0"]
+
+[dependencies] 
+
+[debian11]
+
+[fedora38]
+
+# [debian11-arm64]
