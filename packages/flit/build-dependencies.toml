@@ -1,5 +1,5 @@
 [project]
-package="flit-core"
+package="flit"
 versions = ["3.8.2"]
 
 [dependencies] 
