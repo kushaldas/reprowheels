@@ -1,0 +1,12 @@
+[project]
+package="wheel"
+versions = ["3.4"]
+
+[dependencies] 
+latest = ["flit_core>=3.2,<4"]
+
+[debian11]
+
+[fedora38]
+
+# [debian11-arm64]
