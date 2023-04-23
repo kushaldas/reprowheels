@@ -1,6 +1,7 @@
 [project]
 package="wheel"
 versions = ["0.34.0", "0.38.2", "0.40.0"]
+use_pypi = true
 
 [dependencies] 
 latest=["setuptools==67.6.1",]
