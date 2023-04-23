@@ -1,0 +1,12 @@
+[project]
+package="packaging"
+versions = ["23.1"]
+
+[dependencies] 
+latest=["flit-core>=3.3",]
+
+[debian11]
+
+[fedora38]
+
+# [debian11-arm64]
