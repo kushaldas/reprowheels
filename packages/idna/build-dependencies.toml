@@ -1,5 +1,5 @@
 [project]
-package="wheel"
+package="idna"
 versions = ["3.4"]
 
 [dependencies] 
