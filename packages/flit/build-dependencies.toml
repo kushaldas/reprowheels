@@ -1,8 +1,9 @@
 [project]
 package="flit"
-versions = ["3.8.2"]
+versions = ["3.8.0"]
 
 [dependencies] 
+latest = ["requests", "docutils", "tomli-w", "flit-core"]
 
 [debian11]
 
