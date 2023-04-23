@@ -3,7 +3,7 @@ package="test-package"
 versions = ["0.8.0", "0.78.2", "0.87.0"]
 
 [dependencies] 
-latest = [
+default = [
     "wheel==0.40.0",
     "pip"]
 

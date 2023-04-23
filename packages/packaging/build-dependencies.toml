@@ -3,7 +3,7 @@ package="packaging"
 versions = ["23.1"]
 
 [dependencies] 
-latest=["flit-core>=3.3",]
+default=["flit-core>=3.3",]
 
 [debian11]
 

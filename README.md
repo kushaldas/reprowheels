@@ -20,13 +20,13 @@ versions = ["0.8.0", "0.78.2", "0.87.0"]
 ### dependencies
 
 This section explains the build time Python dependencies of the project using a
-list. Use the key `latest` to list down all the build dependencies for the
-latest(aka default) package, we can also mention any version specific details
-by adding the same in a list with the version as key.
+list. Use the key `default` to list down all the build dependencies by default,
+we can also mention any version specific details by adding the same in a list
+with the version as key.
 
 ```toml
 [dependencies] 
-latest = [
+default = [
     "wheel==0.40.0",
     "pip"]
 

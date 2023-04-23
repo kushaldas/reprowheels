@@ -3,7 +3,7 @@ package="flit"
 versions = ["3.8.0"]
 
 [dependencies] 
-latest = ["requests", "docutils", "tomli-w", "flit-core"]
+default = ["requests", "docutils", "tomli-w", "flit-core==3.8.2"]
 
 [debian11]
 
