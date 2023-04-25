@@ -17,6 +17,9 @@ package="test-package"
 versions = ["0.8.0", "0.78.2", "0.87.0"]
 ```
 
+We can also say that build this package using build time dependencies from
+`pypi` itself. To do so, say `use_pypi: true` in this section.
+
 ### dependencies
 
 This section explains the build time Python dependencies of the project using a
