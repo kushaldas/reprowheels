@@ -1,0 +1,19 @@
+[project]
+package = "hatchling"
+versions = [
+    "1.14.1",
+]
+use_pypi = true
+
+[dependencies]
+default = [
+    "importlib-metadata;python_version<'3.8'",
+    "pathspec>=0.10.1",
+    "pluggy>=1.0.0",
+    "trove-classifiers",
+    "tomli>=1.2.2;python_version<'3.11'",
+    "editables>=0.3",
+    "packaging>=21.3",
+]
+
+[debian11]
