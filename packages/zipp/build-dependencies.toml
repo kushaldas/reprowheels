@@ -1,0 +1,14 @@
+[project]
+package = "zipp"
+versions = [
+    "3.15.0",
+]
+
+[dependencies]
+default = [
+    "wheel",
+    "setuptools>=56",
+    "setuptools_scm[toml]>=3.4.1",
+]
+
+[debian11]
