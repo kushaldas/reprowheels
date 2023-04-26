@@ -7,6 +7,6 @@ default = ["flit_core>=3.2,<4"]
 
 [debian11]
 
-[ubuntu22.04]
+["ubuntu22.04"]
 
 # [debian11-arm64]
