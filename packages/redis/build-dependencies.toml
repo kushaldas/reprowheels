@@ -1,0 +1,15 @@
+[project]
+package = "redis"
+versions = [
+    "4.5.4",
+]
+
+[dependencies]
+default = [
+    "setuptools>=40.8.0",
+    "wheel",
+]
+
+[debian11]
+
+["ubuntu22.04"]
