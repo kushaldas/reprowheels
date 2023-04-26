@@ -1,0 +1,12 @@
+[project]
+package = "hatch-vcs"
+versions = [
+    "0.3.0",
+]
+
+[dependencies]
+default = [
+    "hatchling>=1.1.0",
+]
+
+[debian11]
