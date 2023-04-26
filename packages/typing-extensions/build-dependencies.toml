@@ -1,0 +1,10 @@
+[project]
+package = "typing-extensions"
+versions = [
+    "4.5.0",
+]
+dependencies = [
+    "flit_core>=3.4,<4",
+]
+
+[debian11]
