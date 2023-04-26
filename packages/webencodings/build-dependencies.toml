@@ -1,0 +1,13 @@
+[project]
+package = "webencodings"
+versions = [
+    "0.5.1",
+]
+
+[dependencies]
+default = [
+    "setuptools>=40.8.0",
+    "wheel",
+]
+
+[debian11]
